@@ -1,14 +1,10 @@
-class Student:
-    # [assignment] Skeleton class. Add your code here
-    def __init__(self):
-        pass
+# Check if two words are anagrams 
+# Example:
+# find_anagrams("hello", "check") --> False
+# find_anagrams("below", "elbow") --> True
 
 
+def find_anagram(word, anagram):
+    # [assignment] Add your code here
 
-Bob = Student(name="Bob", age=26, tracks=["FE","BE"],score=20.90)
-
-# Expected methods
-Bob.change_name("Peter")
-Bob.change_age(34)
-Bob.add_track("UI/UX")
-Bob.get_score()
+    return True
